@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(to bottom right, rgba(2, 2, 151, 0.76),rgb(70, 0, 117), rgb(45, 1, 77));
+}
+
+#create-account-form{
+    width: 400px;
+    padding: 20px;
+    text-transform: uppercase;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    box-shadow: 0px 9px 11px 0px black;
+}
+
+.title{
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.input-group{
+    margin: 20px 0;
+    position: relative;
+}
+
+.input-group label{
+    display: inline-block;
+    margin-bottom: 5px;
+}
+
+.input-group input{
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid;
+}
+
+.success input{
+    border: 3px solid green;
+}
+
+.error input{
+    border: 3px solid red;
+}
+
+.input-group i{
+    position: absolute;
+    right: 10px;
+    top: 36px;
+    visibility: hidden;
+}
+
+.success i.fa-circle-check{
+    visibility: visible;
+    color: green;
+}
+
+.error i.fa-circle-exclamation{
+    visibility: visible;
+    color: red;
+}
+
+.input-group p{
+    font-size: 14px;
+    color: red;
+    visibility: hidden;
+}
+
+.error p{
+    visibility: visible;
+}
+
+.btn{
+    width: 100%;
+    padding: 10px;
+    font-size: 15px;
+    text-transform: uppercase;
+    background: linear-gradient(to right, rgb(103, 4, 169),rgb(47, 1, 197));
+    border: 1px solid;
+    border-radius: 5px;
+    color: aliceblue;
+}
+.btn:hover{
+    background: linear-gradient(to right, rgb(57, 1, 95),rgb(35, 2, 143));
+
+}

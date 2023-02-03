@@ -1,0 +1,10 @@
+section{
+    margin-top: 4%;
+}
+.carousel-inner{
+    height: 600px;
+}
+
+.carousel-item img{
+    width: 50%;
+}
